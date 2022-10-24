@@ -18,6 +18,15 @@ p floats[0]
 #this line of code will call the 3rd element in the booleans array
 p booleans[2]
 
-#this line of code will return the first to elements in the array enyarts
+#this line of code will return the first two elements in the array enyarts
 p enyarts.take(2)
+
+#this line of code will add the passed through argument to the end of the enyart_ages array
+p enyart_ages.push(27)
+
+#this line of code will add the passed through argument to the beginning of the floats array
+p floats.unshift(5.7)
+
+#this line of code will remove the first element in the booleans array and returns it (shifting all other elements down by 1)
+p booleans.shift
 
